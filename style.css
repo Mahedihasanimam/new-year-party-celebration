@@ -52,6 +52,9 @@ p {
   margin: 0 auto;
   padding: 215px 0px;
 }
+.banner-text h4 {
+  text-align: center;
+}
 /* banner end  */
 
 /* disount sec  */
@@ -186,10 +189,6 @@ p {
   align-items: center;
   justify-content: space-between;
 }
-/* .commingsoon-section .column{
-  padding: 0 50px;
-} */
-
 .commingsoon-section .column h2,
 h4 {
   text-align: start;
@@ -221,10 +220,73 @@ h4 {
 .column h1 {
   color: #070211;
   font-family: Merriweather;
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 900;
   text-transform: capitalize;
 }
-.column h1,h4,p{
+.column h1,
+h4,
+p {
   padding: 10px 0px;
+}
+/* sale section  */
+.sale-section {
+  width: 80%;
+  max-width: 1320px;
+  margin: 100px auto;
+}
+.Sale-text h4 {
+  text-align: center;
+}
+.Sale-text {
+  text-align: center;
+}
+.sale-banner-section {
+  background: url("resources/Rectangle1.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.discount-image img {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: 170px;
+  right: 331px;
+}
+.gift-box {
+  width: 100%;
+}
+
+/* protfolio section  */
+.portfolio-section {
+}
+.portfolio-text {
+  width: 896px;
+  padding: 50px 0px;
+}
+.portfolio-text h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolio-text h1{
+  color: #070211;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+
+.forfolio-image {
+}
+.row img {
+  width: 100%;
+}
+.row {
+  display: flex;
+  gap: 25px;
+  padding-bottom: 25px;
 }
